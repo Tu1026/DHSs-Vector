@@ -69,7 +69,7 @@ class TrainingArguments(transformers.TrainingArguments):
     eval_accumulation_steps: int = field(default=20)
     # use_cpu: bool = field(default=True)
     # ddp_backend: str = field(default="gloo")
-    report_to: Optional[List[str]] = field(default="wandb")
+    report_to: Optional[List[str]] = field(default=None)
     run_name: str = field(default="Parallel")
     
 
