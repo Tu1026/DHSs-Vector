@@ -24,4 +24,5 @@ torchrun   --nproc-per-node=${num_gpu} train.py \
     --logging_steps 100 \
     --overwrite_output_dir True \
     --log_level info \
-    --find_unused_parameters False
+    --find_unused_parameters False\
+    # --report_to wandb
