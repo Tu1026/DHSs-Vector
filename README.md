@@ -53,6 +53,9 @@ The most important results and contributions of the project so far are the follo
 - The finetune model was able to utilize the latent space of the model more for DHS specific tasks.
 - Setup structure that allows us to quickly scale up the model to use more data and more complex models.
 
+**Check out the rendered-ipynb for better viewing experience here** https://htmlpreview.github.io/?https://github.com/Tu1026/DHSs-Vector/blob/main/explore.html
+
+
 ## Notes
 
 The results are only running on a very small subset of the data due to limited access to HPC this week. The results are not final and the model is not fully optimized. The model is also not fully trained on the data. We would expect better performance and better latnet space separation with more data and more training. Finally I also acknowledge that there are many potential directions still to be explored for this task
