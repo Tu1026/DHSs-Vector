@@ -12,6 +12,8 @@ import os
 from pathlib import Path
 import shutil
 import subprocess
+
+os.chdir(Path(__file__).parent.parent.joinpath('data'))
 # %%
 
 subprocess.call("wget https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz", shell=True)
